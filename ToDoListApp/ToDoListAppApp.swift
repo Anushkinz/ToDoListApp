@@ -21,6 +21,7 @@ struct ToDoListAppApp: App {
                 ListView()
             }
             .environmentObject(listViewModel)
+            ContentView()
         }
     }
 }
